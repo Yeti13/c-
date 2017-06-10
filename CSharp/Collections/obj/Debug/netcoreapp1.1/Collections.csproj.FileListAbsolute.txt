@@ -1,0 +1,8 @@
+c:\Users\Joe\Desktop\CSharp\Collections\bin\Debug\netcoreapp1.1\Collections.deps.json
+c:\Users\Joe\Desktop\CSharp\Collections\bin\Debug\netcoreapp1.1\Collections.runtimeconfig.json
+c:\Users\Joe\Desktop\CSharp\Collections\bin\Debug\netcoreapp1.1\Collections.runtimeconfig.dev.json
+c:\Users\Joe\Desktop\CSharp\Collections\bin\Debug\netcoreapp1.1\Collections.dll
+c:\Users\Joe\Desktop\CSharp\Collections\bin\Debug\netcoreapp1.1\Collections.pdb
+c:\Users\Joe\Desktop\CSharp\Collections\obj\Debug\netcoreapp1.1\Collections.AssemblyInfo.cs
+c:\Users\Joe\Desktop\CSharp\Collections\obj\Debug\netcoreapp1.1\Collections.dll
+c:\Users\Joe\Desktop\CSharp\Collections\obj\Debug\netcoreapp1.1\Collections.pdb

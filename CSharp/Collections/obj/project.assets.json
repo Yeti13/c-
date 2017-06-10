@@ -7042,16 +7042,16 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Joe\\Desktop\\CSharp\\Collections\\Collections.csproj",
+      "projectUniqueName": "c:\\Users\\Joe\\Desktop\\C#\\CSharp\\Collections\\Collections.csproj",
       "projectName": "Collections",
-      "projectPath": "C:\\Users\\Joe\\Desktop\\CSharp\\Collections\\Collections.csproj",
-      "outputPath": "C:\\Users\\Joe\\Desktop\\CSharp\\Collections\\obj\\",
+      "projectPath": "c:\\Users\\Joe\\Desktop\\C#\\CSharp\\Collections\\Collections.csproj",
+      "outputPath": "c:\\Users\\Joe\\Desktop\\C#\\CSharp\\Collections\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
       ],
       "files": {
-        "lib/netcoreapp1.1/Collections.dll": "C:\\Users\\Joe\\Desktop\\CSharp\\Collections\\bin\\placeholder\\netcoreapp1.1\\Collections.dll"
+        "lib/netcoreapp1.1/Collections.dll": "c:\\Users\\Joe\\Desktop\\C#\\CSharp\\Collections\\bin\\placeholder\\netcoreapp1.1\\Collections.dll"
       },
       "frameworks": {
         "netcoreapp1.1": {

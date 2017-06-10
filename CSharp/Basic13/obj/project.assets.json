@@ -7042,16 +7042,16 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Joe\\Desktop\\CSharp\\Basic13\\Basic13.csproj",
+      "projectUniqueName": "C:\\Users\\Joe\\Desktop\\C#\\CSharp\\Basic13\\Basic13.csproj",
       "projectName": "Basic13",
-      "projectPath": "C:\\Users\\Joe\\Desktop\\CSharp\\Basic13\\Basic13.csproj",
-      "outputPath": "C:\\Users\\Joe\\Desktop\\CSharp\\Basic13\\obj\\",
+      "projectPath": "C:\\Users\\Joe\\Desktop\\C#\\CSharp\\Basic13\\Basic13.csproj",
+      "outputPath": "C:\\Users\\Joe\\Desktop\\C#\\CSharp\\Basic13\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
       ],
       "files": {
-        "lib/netcoreapp1.1/Basic13.dll": "C:\\Users\\Joe\\Desktop\\CSharp\\Basic13\\bin\\placeholder\\netcoreapp1.1\\Basic13.dll"
+        "lib/netcoreapp1.1/Basic13.dll": "C:\\Users\\Joe\\Desktop\\C#\\CSharp\\Basic13\\bin\\placeholder\\netcoreapp1.1\\Basic13.dll"
       },
       "frameworks": {
         "netcoreapp1.1": {

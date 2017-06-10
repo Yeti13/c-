@@ -7042,16 +7042,16 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Joe\\Desktop\\C#\\CSharp\\Human\\Human.csproj",
-      "projectName": "Human",
-      "projectPath": "C:\\Users\\Joe\\Desktop\\C#\\CSharp\\Human\\Human.csproj",
-      "outputPath": "C:\\Users\\Joe\\Desktop\\C#\\CSharp\\Human\\obj\\",
+      "projectUniqueName": "c:\\Users\\Joe\\Desktop\\C#\\CSharp\\DeckOfCards\\DeckOfCards.csproj",
+      "projectName": "DeckOfCards",
+      "projectPath": "c:\\Users\\Joe\\Desktop\\C#\\CSharp\\DeckOfCards\\DeckOfCards.csproj",
+      "outputPath": "c:\\Users\\Joe\\Desktop\\C#\\CSharp\\DeckOfCards\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
       ],
       "files": {
-        "lib/netcoreapp1.1/Human.dll": "C:\\Users\\Joe\\Desktop\\C#\\CSharp\\Human\\bin\\placeholder\\netcoreapp1.1\\Human.dll"
+        "lib/netcoreapp1.1/DeckOfCards.dll": "c:\\Users\\Joe\\Desktop\\C#\\CSharp\\DeckOfCards\\bin\\placeholder\\netcoreapp1.1\\DeckOfCards.dll"
       },
       "frameworks": {
         "netcoreapp1.1": {

@@ -11,6 +11,7 @@ namespace Human
             System.Console.WriteLine(player1.health);
             player2.attack(player1);
             System.Console.WriteLine(player1.health);
+            
         }
     }
 }

@@ -1,0 +1,19 @@
+.stat{
+    display: inline-block;
+    margin-left: 150px;
+}
+
+.dachi{
+    width: 500px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: grey;
+}
+
+form{
+    display: inline-block;
+    margin-left: 175px;
+    margin-top: 25px;
+}

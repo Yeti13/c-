@@ -1,0 +1,8 @@
+C:\Users\Joe\Desktop\C#\CSharp\TimeDisplay\bin\Debug\netcoreapp1.1\TimeDisplay.deps.json
+C:\Users\Joe\Desktop\C#\CSharp\TimeDisplay\bin\Debug\netcoreapp1.1\TimeDisplay.runtimeconfig.json
+C:\Users\Joe\Desktop\C#\CSharp\TimeDisplay\bin\Debug\netcoreapp1.1\TimeDisplay.runtimeconfig.dev.json
+C:\Users\Joe\Desktop\C#\CSharp\TimeDisplay\bin\Debug\netcoreapp1.1\TimeDisplay.dll
+C:\Users\Joe\Desktop\C#\CSharp\TimeDisplay\bin\Debug\netcoreapp1.1\TimeDisplay.pdb
+C:\Users\Joe\Desktop\C#\CSharp\TimeDisplay\obj\Debug\netcoreapp1.1\TimeDisplay.AssemblyInfo.cs
+C:\Users\Joe\Desktop\C#\CSharp\TimeDisplay\obj\Debug\netcoreapp1.1\TimeDisplay.dll
+C:\Users\Joe\Desktop\C#\CSharp\TimeDisplay\obj\Debug\netcoreapp1.1\TimeDisplay.pdb

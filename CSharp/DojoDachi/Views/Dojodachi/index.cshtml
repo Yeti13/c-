@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <script
+        src="https://code.jquery.com/jquery-3.2.1.js"
+        integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+        crossorigin="anonymous">
+    </script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>DojoDachi</title>
+</head>
+<body>
+    <div class="container">
+        <div class="page-header">
+            <p class="stat"><strong>Fullness:  @ViewBag.Fullness</strong></p>
+            <p class="stat"><strong>Happiness:  @ViewBag.Happiness</strong></p>
+            <p class="stat"><strong>Meals:  @ViewBag.Meals</strong></p>
+            <p class="stat"><strong>Energy:  @ViewBag.Energy</strong></p>
+        </div>
+        <div class="dachi">
+            
+        </div>
+        <form action="/interact" method="post">
+            <input type="hidden" name="action" value="feed">
+            <button class="btn btn-default">Feed</button>
+        </form>
+        <form action="/interact" method="post">
+            <input type="hidden" name="action" value="play">
+            <button class="btn btn-default">Play</button>
+        </form>
+        <form action="/interact" method="post">
+            <input type="hidden" name="action" value="work">
+            <button class="btn btn-default">Work</button>
+        </form>
+        <form action="/interact" method="post">
+            <input type="hidden" name="action" value="sleep">
+            <button class="btn btn-default">Sleep</button>
+        </form>
+        @{
+            if (ViewBag.message != null){
+                <p><strong>@ViewBag.message</strong></p>
+            }
+        }
+    </div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+h2{
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+#homeImg{
+    width: 45%;
+    box-shadow: 5px 5px 5px black;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+#about{
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    margin: 0px 0px 0px 20px;
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(138, 148, 163);
+    box-shadow: 5px 5px 5px black;
+    border-radius: 5px;
+}
+
+.jumbotron{
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(59, 70, 86)), to(rgb(199, 206, 216)));
+    background-image: -webkit-linear-gradient(top, rgb(59, 70, 86), rgb(199, 206, 216));
+    background-image: -moz-linear-gradient(top, rgb(59, 70, 86), rgb(199, 206, 216));
+    background-image: linear-gradient(to bottom, rgb(59, 70, 86), rgb(199, 206, 216));
+}

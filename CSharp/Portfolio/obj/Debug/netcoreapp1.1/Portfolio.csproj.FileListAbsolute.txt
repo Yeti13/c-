@@ -1,0 +1,8 @@
+C:\Users\Joe\Desktop\C#\CSharp\Portfolio\bin\Debug\netcoreapp1.1\Portfolio.deps.json
+C:\Users\Joe\Desktop\C#\CSharp\Portfolio\bin\Debug\netcoreapp1.1\Portfolio.runtimeconfig.json
+C:\Users\Joe\Desktop\C#\CSharp\Portfolio\bin\Debug\netcoreapp1.1\Portfolio.runtimeconfig.dev.json
+C:\Users\Joe\Desktop\C#\CSharp\Portfolio\bin\Debug\netcoreapp1.1\Portfolio.dll
+C:\Users\Joe\Desktop\C#\CSharp\Portfolio\bin\Debug\netcoreapp1.1\Portfolio.pdb
+C:\Users\Joe\Desktop\C#\CSharp\Portfolio\obj\Debug\netcoreapp1.1\Portfolio.AssemblyInfo.cs
+C:\Users\Joe\Desktop\C#\CSharp\Portfolio\obj\Debug\netcoreapp1.1\Portfolio.dll
+C:\Users\Joe\Desktop\C#\CSharp\Portfolio\obj\Debug\netcoreapp1.1\Portfolio.pdb

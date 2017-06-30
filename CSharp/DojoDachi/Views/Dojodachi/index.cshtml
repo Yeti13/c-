@@ -52,7 +52,15 @@
         </form>
         @{
             if (ViewBag.message != null){
-                <p><strong>@ViewBag.message</strong></p>
+                <div class="msg">
+                    <p><strong>@ViewBag.message</strong></p>
+                </div>
+            }
+
+            if (ViewBag.loss == true){
+                <form action="/reset" method="post">
+                    <button class="btn btn-default">Reset</button>
+                </form>
             }
         }
     </div>

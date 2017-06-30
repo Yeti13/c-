@@ -1,0 +1,30 @@
+<div class="page-header">
+    <h1>Pokemon API Search</h1>
+</div>
+
+
+<form action="/pokemon">
+    <div class="form-group">
+        <label for="searchBar">Enter an ID to learn more about Pokemon</label>
+        <input type="text" class="form-control" id="searchBar" placeholder="Pokemon ID" name="pokeid">
+    </div>
+        <button class="btn btn-default">Submit</button>
+</form>
+
+<div>
+    @{
+        if (ViewBag.name != null){
+            <img src="@ViewBag.img" alt="">
+            <h2>Name:  @ViewBag.name</h2>
+        <ul>
+            <li>Height:  @ViewBag.height</li>
+            <li>Weight:  @ViewBag.weight</li>
+
+            @foreach (string type in @ViewBag.types){
+                <li>Type:  @type</li>
+            }
+            
+        </ul>
+        }
+    }
+</div>

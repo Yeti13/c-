@@ -17,3 +17,10 @@ form{
     margin-left: 175px;
     margin-top: 25px;
 }
+
+.msg{
+    width: 500;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}

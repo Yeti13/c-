@@ -1,0 +1,23 @@
+<h1>Learn some sweet info about countries!</h1>
+
+<form action="/search" method="post">
+    <div class="form-group">
+        <label for="countryName">Country Name</label>
+        <input type="text" name="countryName" placeholder="Country" class="form-control">
+    </div>
+    <button class="btn btn-default">Search</button>
+
+</form>
+
+<p>@ViewBag.message</p>
+
+@{
+    if (ViewBag.name != null){
+        <h2>Name:  @ViewBag.name</h2>
+        <ul>
+            <li>Continent:  @ViewBag.continent</li>
+            <li>Population:  @ViewBag.population</li>
+            <li>Year of Independence:  @ViewBag.indep</li>
+        </ul>
+    }
+}

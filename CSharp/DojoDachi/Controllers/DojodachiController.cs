@@ -10,18 +10,25 @@ namespace dojodachi.Controllers{
         [HttpGet]
         [Route("")]
 
-        public IActionResult Index(int fullState = 20, int happyState = 20, int energyState = 50, int mealState = 3){
-            if(HttpContext.Session == null){
+        public IActionResult Index(){
+            if(HttpContext.Session.GetInt32("Fullness") == null){
             HttpContext.Session.SetInt32("Fullness", 20);
             HttpContext.Session.SetInt32("Happiness", 20);
             HttpContext.Session.SetInt32("Energy", 50); 
             HttpContext.Session.SetInt32("Meals", 3);
             }
+
             ViewBag.message = TempData["Message"];
-            ViewBag.Fullness = fullState;
-            ViewBag.Happiness = happyState;
-            ViewBag.Energy = energyState;
-            ViewBag.Meals = mealState;
+            ViewBag.Fullness = HttpContext.Session.GetInt32("Fullness");
+            ViewBag.Happiness = HttpContext.Session.GetInt32("Happiness");
+            ViewBag.Energy = HttpContext.Session.GetInt32("Energy");
+            ViewBag.Meals = HttpContext.Session.GetInt32("Meals");
+
+            if( HttpContext.Session.GetInt32("Fullness") < 1 || HttpContext.Session.GetInt32("Happiness") < 1){
+                ViewBag.message = "Your Dachi has Died a slow, horrible death!";
+                ViewBag.loss = true;
+            }
+
             return View("index");
         }
 
@@ -30,7 +37,7 @@ namespace dojodachi.Controllers{
 
         public IActionResult Interact(string action){
             System.Console.WriteLine(action);
-            string message = "Go ahead, have fun with your Dachi!";
+            string message = "";
             Random rand = new Random();
             int fullState = (int)HttpContext.Session.GetInt32("Fullness");
             int happyState = (int)HttpContext.Session.GetInt32("Happiness");
@@ -71,8 +78,19 @@ namespace dojodachi.Controllers{
                     message = "Shh, your dachi is sleeping.";
                     break;
             }
+
             TempData["Message"] = message;
-            return Redirect("");
+            return RedirectToAction("Index");
+        }
+
+        [HttpPost]
+        [Route("/reset")]
+
+        public IActionResult Reset(){
+
+            HttpContext.Session.Clear();
+            
+            return RedirectToAction("Index");
         }
     }
 }

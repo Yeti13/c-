@@ -17,7 +17,7 @@ namespace PokeAPI
             {
                 try
                 {
-                    Client.BaseAddress = new Uri($"http://pokeapi.co/api/v2/pokemon/{PokeId}");
+                    Client.BaseAddress = new Uri($"http://api.smitegame.com/smiteapi.svc/createsessionJson/1946/8f53249be0922c94720834771ad43f0f/14507C1C9E674712AC25713AE7E5FDFC");
                     HttpResponseMessage Response = await Client.GetAsync(""); // Make the actual API call.
                     Response.EnsureSuccessStatusCode(); // Throw error if not successful.
                     string StringResponse = await Response.Content.ReadAsStringAsync(); // Read in the response as a string.

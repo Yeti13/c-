@@ -1,0 +1,15 @@
+<h1>Welcome to QuotingDojo</h1>
+
+<form action="/quote" method="post">
+    <div class="form-group">
+        <label for="name">Your Name:</label>
+        <input type="text" class="form-control" id="name" name="name" placeholder="Your name here">
+    </div>
+    <div class="form-group">
+        <label for="quote">Your Quote:</label>
+        <textarea name="quote" id="quote" cols="30" rows="10" placeholder="Your quote here" class="form-control"></textarea>
+    </div>
+    <button type="submit" class="btn btn-default">Submit Quote</button>
+</form>
+
+<a href="/quote"><button class="btn btn-default">See Quotes</button></a>
